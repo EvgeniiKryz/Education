@@ -7,13 +7,13 @@ public class Ex_1 {
 
         int arr[] = new int[5];
 
-        for (int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = i + 5;
             System.out.println("Element " + i + " = " + arr[i]);
         }
         int min = arr[0];
-        for (int i = 0; i < arr.length; i++){
-            if (arr[i] < min){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
                 min = arr[i];
             }
 
