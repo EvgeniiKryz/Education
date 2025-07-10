@@ -26,7 +26,5 @@ public class Ex_6 {
             System.out.print(arr[j] + " ");
 
         }
-
-
     }
 }
