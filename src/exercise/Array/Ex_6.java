@@ -10,20 +10,20 @@ public class Ex_6 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter size of the array: ");
-        int n = scanner.nextInt();
-        int arr[] = new int[n];
+        int size = scanner.nextInt();
+        int array[] = new int[size];
         int i = 0;
 
         do {
             System.out.println("Enter arr[" + i + "]");
-            arr[i] = scanner.nextInt();
+            array[i] = scanner.nextInt();
             i++;
 
-        } while (i < n);
+        } while (i < size);
 
         System.out.println("Your array: ");
-        for (int j = 0; j < n; j++) {
-            System.out.print(arr[j] + " ");
+        for (int j = 0; j < size; j++) {
+            System.out.print(array[j] + " ");
 
         }
     }
